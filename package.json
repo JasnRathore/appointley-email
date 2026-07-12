@@ -8,7 +8,9 @@
     "nodemailer": "^8.0.7"
   },
   "scripts": {
-    "dev": "tsx watch src/local.ts"
+    "dev": "tsx watch src/local.ts",
+    "build": "tsc",
+    "start": "node dist/local.js"
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
